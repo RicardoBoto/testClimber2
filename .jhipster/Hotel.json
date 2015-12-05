@@ -1,0 +1,26 @@
+{
+    "relationships": [
+        {
+            "relationshipId": 1,
+            "relationshipName": "userTmp",
+            "otherEntityName": "userTmp",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "hotel"
+        }
+    ],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldId": 2,
+            "fieldName": "code",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20151205003955",
+    "dto": "no",
+    "pagination": "no"
+}

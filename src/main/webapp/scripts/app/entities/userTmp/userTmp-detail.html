@@ -1,0 +1,38 @@
+
+<div>
+    <h2><span translate="testClimber2App.userTmp.detail.title">UserTmp</span> {{userTmp.id}}</h2>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th translate="entity.detail.field">Field</th>
+                <th translate="entity.detail.value">Value</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>
+                    <span translate="testClimber2App.userTmp.hotel">hotel</span>
+                </td>
+                <td>
+                    <a class="form-control-static" ui-sref="hotel.detail({id:userTmp.hotel.id})">{{userTmp.hotel.name}}</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span translate="testClimber2App.userTmp.user">user</span>
+                </td>
+                <td>
+                    {{userTmp.user.login}}
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <button type="submit"
+            onclick="window.history.back()"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span translate="entity.action.back"> Back</span>
+    </button>
+</div>

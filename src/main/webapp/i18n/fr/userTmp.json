@@ -1,0 +1,23 @@
+{
+    "testClimber2App": {
+        "userTmp" : {
+            "home": {
+                "title": "UserTmps",
+                "createLabel": "Créer un nouveau UserTmp",
+                "createOrEditLabel": "Créer ou éditer un UserTmp"
+            },
+            "created": "Un nouveau UserTmp a été créé avec l'identifiant {{ param }}",
+            "updated": "Le UserTmp avec l'identifiant {{ param }} a été mis à jour",
+            "deleted": "Le UserTmp avec l'identifiant {{ param }} a été supprimé",
+            "delete": {
+                "question": "Etes-vous certain de vouloir supprimer le UserTmp {{ id }} ?"
+            },
+            "detail": {
+                "title": "UserTmp"
+            },
+            "hotel": "Hotel",
+            "user": "User"
+        }
+    }
+}
+
